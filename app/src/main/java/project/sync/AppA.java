@@ -25,6 +25,8 @@ public class AppA {
 
         FileSender sender = new FileSender(host, targetPort);
         new FileWatcher(folderPath, sender).start();
+
+        System.out.println("hello");
     }
 
 }

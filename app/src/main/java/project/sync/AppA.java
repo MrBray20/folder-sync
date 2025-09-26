@@ -27,6 +27,7 @@ public class AppA {
         new FileWatcher(folderPath, sender).start();
 
         System.out.println("hello");
+        System.out.println("hello");
     }
 
 }
